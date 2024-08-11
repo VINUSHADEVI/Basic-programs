@@ -1,8 +1,9 @@
-str=(input("enter the string"))
-print(str)
-for i in str:
- print(i)
- upper().str
+stringarr=input("enter a string")
+count=0
+for i in range(len(stringarr)):
+    if(stringarr[i].isupper()):
+        count+=1
+ print(count)
 
       
       
